@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subscriptionId": {
+        "value": "dc80298f-69e0-41d4-9d38-0ca2483c5e48"
+        
+      },
+      "name": {
+        "value": "web-app-name-01"
+      },
+      "location": {
+        "value": "Central US"
+      },
+      "hostingPlanName": {
+        "value": "App-planTest01-916e"
+      },
+      "serverFarmResourceGroup": {
+        "value": "app_resource_group_custom"
+      },
+      "alwaysOn": {
+        "value": true
+      },
+      "linuxFxVersion": {
+        "value": "NODE|12-lts"
+      },
+      "accountname": {
+          "value": "newAccount" 
+      }
+    }
+  }
