@@ -1,6 +1,6 @@
 # Lab 1
 
-Command:
+Command (using Azure Powershell):
 ```
 $templateFile = "azuredeploy.json"
 $parameterFile= "azuredeploy.parameters.json"
