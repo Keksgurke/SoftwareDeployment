@@ -16,6 +16,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    cd Lab2
+    cd webapp
     npm install
     npm run build
   displayName: 'npm install and build'
