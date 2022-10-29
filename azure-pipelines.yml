@@ -17,9 +17,8 @@ steps:
 
 - script: |
     echo 'change cd'
-    cd Lab2
+    cd ./Lab2/webapp
 
-    workingDirectory: Lab2/webapp
     npm install
     npm run build
   displayName: 'npm install and build'
