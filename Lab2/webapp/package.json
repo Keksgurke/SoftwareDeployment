@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node .\\app.js"
+    "start": "node app.js"
   },
   "author": "Christoph Hofer",
   "license": "ISC",
