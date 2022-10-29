@@ -16,10 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    echo  '$(System.DefaultWorkingDirectory)'
-    dir Lab2
-    dir webapp
-    echo  '$(System.DefaultWorkingDirectory)'
+    echo 'change cd'
+    cd Lab2
+
+    workingDirectory: Lab2/webapp
     npm install
     npm run build
   displayName: 'npm install and build'
