@@ -15,7 +15,7 @@ variables:
   webAppName: 'lab2testCH'
 
   # Environment name
-  environmentName: 'lab2testCH'
+  environmentName: 'myResourceGroup'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
