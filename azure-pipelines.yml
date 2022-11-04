@@ -36,7 +36,8 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
-        cd ./lab2/webapp
+        dir
+        cd ./Lab2/webapp
         npm install
         npm run build --if-present
         npm run test --if-present
