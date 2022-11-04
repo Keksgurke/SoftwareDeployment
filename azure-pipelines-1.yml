@@ -36,13 +36,12 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
-        echo "$PWD"
-        echo 'change cd'
+        
         cd ./Lab2/webapp
-        echo "$PWD"
+        
 
         npm install
-        npm start
+        
       displayName: 'npm install, build and test'
 
     - task: ArchiveFiles@2
@@ -79,4 +78,4 @@ stages:
               appName: $(webAppName)
               runtimeStack: 'NODE|10.10'
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
-              startUpCommand: 'npm run start'
+              startUpCommand: 'npm start'
